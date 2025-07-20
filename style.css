@@ -1,0 +1,72 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+background-color: #f9f9f9;
+}
+
+header {
+background-color: #222;
+color: white;
+padding: 1rem 2rem;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+}
+
+nav ul li {
+margin-left: 20px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+}
+
+.hero {
+text-align: center;
+padding: 100px 20px;
+background-color: #007BFF;
+color: white;
+}
+
+.about, .projects, .contact {
+padding: 50px 20px;
+text-align: center;
+}
+
+.project-card {
+margin: 20px auto;
+max-width: 600px;
+padding: 20px;
+background: white;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+text-align: center;
+padding: 20px;
+background-color: #222;
+color: white;
+}
+
+.bgImage{
+    background-image: url('./myphoto.JPG');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
